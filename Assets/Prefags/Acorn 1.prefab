@@ -131,3 +131,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 3070541638427448547}
   movespeed: 10
+  jumpHeight: 31

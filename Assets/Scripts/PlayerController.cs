@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public Rigidbody rb;
     public float movespeed = 10f;
+    public float jumpHeight;
 
     private float xInput;
     private float yInput;
@@ -27,6 +28,11 @@ void Update() //Animations and inputs
     {
         xInput = Input.GetAxis("Horizontal");
         yInput = Input.GetAxis("Vertical");
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.AddForce(new Vector3(xInput, jumpHeight, yInput) * jumpHeight);
+        }
+
     }
     private void Move()
     {

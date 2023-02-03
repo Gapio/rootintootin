@@ -352,6 +352,10 @@ PrefabInstance:
       value: Acorn
       objectReference: {fileID: 0}
     - target: {fileID: 3070541638427448547, guid: cdf600421ec3efb4eb179398bccbc77e, type: 3}
+      propertyPath: m_Mass
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3070541638427448547, guid: cdf600421ec3efb4eb179398bccbc77e, type: 3}
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
