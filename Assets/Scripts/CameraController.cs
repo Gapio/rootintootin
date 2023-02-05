@@ -5,8 +5,6 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public GameObject target;
-    public GameObject rollingAcorn;
-    public GameObject spiderAcorn;
     public float xOffset, yOffset, zOffset;
 
     void Update()
